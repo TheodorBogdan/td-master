@@ -13,7 +13,7 @@ import java.io.Serializable;
 import java.util.List;
 
 public class RepositoryImpl<T extends Serializable> implements Repository<T> {
-    private EntityManager entityManager;
+    protected EntityManager entityManager;
     protected Class<T> entityClass;
 
     public RepositoryImpl(Class<T> entityClass){

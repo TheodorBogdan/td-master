@@ -22,11 +22,11 @@ public class LoginRequestHandler extends RequestHandler {
         var actualUser = repository.findBy("name", user.getName());
 
         if(actualUser == null){
-            return new Response("0",false);
+            return new Response("failure",false);
         }
 
-        if(actualUser.getPassword().equals( user.getPassword())){
-            return new Response("0",false);
+        if(!actualUser.getPassword().equals( user.getPassword())){
+            return new Response("failure",false);
         }
 
         var userToken = Base64.getEncoder().encode(actualUser.getName().getBytes()).toString();

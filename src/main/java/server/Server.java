@@ -1,5 +1,7 @@
 package server;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import request.Request;
 import request.requesthandlers.RequestHandler;
 import request.requesthandlers.RequestHandlerCreator;
@@ -14,6 +16,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Server {
+
+    private static Logger logger = LogManager.getLogger(Server.class);
 
     private ServerSocket serverSocket;
 
@@ -32,6 +36,7 @@ public class Server {
         ExecutorService executorService= Executors.newCachedThreadPool();
         try {
             System.out.println("Runs");
+            logger.info("Server started");
             serverSocket= new ServerSocket(port);
 
             while(true){
@@ -54,6 +59,7 @@ public class Server {
         }
         finally {
             try {
+                logger.info("Server closed.");
                 System.out.println("server close");
                 serverSocket.close();
             } catch (IOException e) {

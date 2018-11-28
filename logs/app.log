@@ -1,0 +1,207 @@
+20:16:54.184 [main] INFO  server.Server - Server started
+20:17:06.275 [pool-2-thread-1] INFO  server.ClientSession -  Received request login with content :{"id":0,"name":"user","password":"123456"} with id: 277506028
+20:17:06.507 [pool-2-thread-1] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:17:06.513 [pool-2-thread-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:17:06.602 [pool-2-thread-1] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+20:17:06.603 [pool-2-thread-1] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+20:17:06.773 [pool-2-thread-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+20:17:07.114 [pool-2-thread-1] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:17:07.121 [pool-2-thread-1] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:17:07.122 [pool-2-thread-1] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:17:07.122 [pool-2-thread-1] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:17:07.126 [pool-2-thread-1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:17:07.356 [pool-2-thread-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:17:08.323 [pool-2-thread-1] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3433e016] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:17:08.658 [pool-2-thread-1] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:17:08.850 [pool-2-thread-1] INFO  server.ClientSession -  Sent response [B@5e3099be for the request with id: 277506028
+20:17:08.856 [pool-2-thread-1] INFO  server.ClientSession -  Received request getUsers with content : with id: 291840704
+20:17:08.864 [pool-2-thread-1] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:17:08.864 [pool-2-thread-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:17:08.878 [pool-2-thread-1] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:17:08.879 [pool-2-thread-1] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:17:08.879 [pool-2-thread-1] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:17:08.879 [pool-2-thread-1] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:17:08.880 [pool-2-thread-1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:17:08.886 [pool-2-thread-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:17:08.948 [pool-2-thread-1] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@322288e2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:17:09.059 [pool-2-thread-1] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:17:09.069 [pool-2-thread-1] INFO  server.ClientSession -  Sent response [{"id":2,"name":"user","password":"123456"},{"id":3,"name":"AnotherUser","password":"123456"},{"id":4,"name":"SomeUser","password":"123456"}] for the request with id: 291840704
+20:17:58.473 [pool-2-thread-1] ERROR server.ClientSession - java.net.SocketException: Connection reset
+20:22:04.022 [pool-2-thread-2] INFO  server.ClientSession -  Received request login with content :{"id":0,"name":"user","password":"123456"} with id: 426214239
+20:22:04.030 [pool-2-thread-2] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:22:04.030 [pool-2-thread-2] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:22:04.038 [pool-2-thread-2] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:22:04.039 [pool-2-thread-2] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:22:04.039 [pool-2-thread-2] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:22:04.039 [pool-2-thread-2] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:22:04.040 [pool-2-thread-2] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:22:04.046 [pool-2-thread-2] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:22:04.084 [pool-2-thread-2] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7d4237d4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:22:04.183 [pool-2-thread-2] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:22:04.189 [pool-2-thread-2] INFO  server.ClientSession -  Sent response [B@404fae54 for the request with id: 426214239
+20:22:04.194 [pool-2-thread-2] INFO  server.ClientSession -  Received request getUsers with content : with id: 577029852
+20:22:04.201 [pool-2-thread-2] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:22:04.202 [pool-2-thread-2] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:22:04.213 [pool-2-thread-2] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:22:04.214 [pool-2-thread-2] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:22:04.214 [pool-2-thread-2] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:22:04.214 [pool-2-thread-2] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:22:04.215 [pool-2-thread-2] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:22:04.221 [pool-2-thread-2] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:22:04.267 [pool-2-thread-2] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3af22a7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:22:04.384 [pool-2-thread-2] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:22:04.392 [pool-2-thread-2] INFO  server.ClientSession -  Sent response [{"id":2,"name":"user","password":"123456"},{"id":3,"name":"AnotherUser","password":"123456"},{"id":4,"name":"SomeUser","password":"123456"}] for the request with id: 577029852
+20:24:40.499 [pool-2-thread-2] ERROR server.ClientSession - java.net.SocketException: Connection reset
+20:29:06.769 [pool-2-thread-3] INFO  server.ClientSession -  Received request login with content :{"id":0,"name":"user","password":"123456"} with id: 962890542
+20:29:06.775 [pool-2-thread-3] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:29:06.775 [pool-2-thread-3] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:29:06.785 [pool-2-thread-3] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:29:06.785 [pool-2-thread-3] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:29:06.786 [pool-2-thread-3] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:29:06.786 [pool-2-thread-3] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:29:06.786 [pool-2-thread-3] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:29:06.792 [pool-2-thread-3] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:29:06.823 [pool-2-thread-3] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@e822a86] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:29:06.918 [pool-2-thread-3] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:29:06.924 [pool-2-thread-3] INFO  server.ClientSession -  Sent response [B@49310a0 for the request with id: 962890542
+20:29:06.929 [pool-2-thread-3] INFO  server.ClientSession -  Received request getUsers with content : with id: 870764301
+20:29:06.936 [pool-2-thread-3] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:29:06.936 [pool-2-thread-3] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:29:06.947 [pool-2-thread-3] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:29:06.948 [pool-2-thread-3] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:29:06.948 [pool-2-thread-3] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:29:06.948 [pool-2-thread-3] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:29:06.949 [pool-2-thread-3] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:29:06.957 [pool-2-thread-3] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:29:07.019 [pool-2-thread-3] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@ff3a819] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:29:07.164 [pool-2-thread-3] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:29:07.172 [pool-2-thread-3] INFO  server.ClientSession -  Sent response [{"id":2,"name":"user","password":"123456"},{"id":3,"name":"AnotherUser","password":"123456"},{"id":4,"name":"SomeUser","password":"123456"}] for the request with id: 870764301
+20:29:23.838 [pool-2-thread-3] ERROR server.ClientSession - java.net.SocketException: Connection reset
+20:37:57.878 [pool-2-thread-4] INFO  server.ClientSession -  Received request login with content :{"id":0,"name":"user","password":"123456"} with id: 233581754
+20:37:57.885 [pool-2-thread-4] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:37:57.886 [pool-2-thread-4] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:37:57.897 [pool-2-thread-4] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:37:57.897 [pool-2-thread-4] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:37:57.898 [pool-2-thread-4] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:37:57.898 [pool-2-thread-4] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:37:57.898 [pool-2-thread-4] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:37:57.903 [pool-2-thread-4] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:37:57.937 [pool-2-thread-4] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@871b8d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:37:58.012 [pool-2-thread-4] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:37:58.017 [pool-2-thread-4] INFO  server.ClientSession -  Sent response [B@4555f0d2 for the request with id: 233581754
+20:37:58.021 [pool-2-thread-4] INFO  server.ClientSession -  Received request getUsers with content : with id: 708361028
+20:37:58.026 [pool-2-thread-4] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:37:58.027 [pool-2-thread-4] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:37:58.034 [pool-2-thread-4] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:37:58.034 [pool-2-thread-4] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:37:58.035 [pool-2-thread-4] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:37:58.035 [pool-2-thread-4] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:37:58.035 [pool-2-thread-4] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:37:58.039 [pool-2-thread-4] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:37:58.068 [pool-2-thread-4] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@713ae1ce] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:37:58.137 [pool-2-thread-4] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:37:58.141 [pool-2-thread-4] INFO  server.ClientSession -  Sent response [{"id":2,"name":"user","password":"123456"},{"id":3,"name":"AnotherUser","password":"123456"},{"id":4,"name":"SomeUser","password":"123456"}] for the request with id: 708361028
+20:38:10.938 [pool-2-thread-4] ERROR server.ClientSession - java.net.SocketException: Connection reset
+20:42:56.680 [pool-2-thread-5] INFO  server.ClientSession -  Received request login with content :{"id":0,"name":"user","password":"123456"} with id: 944591958
+20:42:56.685 [pool-2-thread-5] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:42:56.685 [pool-2-thread-5] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:42:56.694 [pool-2-thread-5] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:42:56.694 [pool-2-thread-5] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:42:56.695 [pool-2-thread-5] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:42:56.695 [pool-2-thread-5] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:42:56.695 [pool-2-thread-5] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:42:56.700 [pool-2-thread-5] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:42:56.727 [pool-2-thread-5] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e5931f1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:42:56.800 [pool-2-thread-5] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:42:56.804 [pool-2-thread-5] INFO  server.ClientSession -  Sent response [B@2a2df218 for the request with id: 944591958
+20:42:56.807 [pool-2-thread-5] INFO  server.ClientSession -  Received request getUsers with content : with id: 716087744
+20:42:56.812 [pool-2-thread-5] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:42:56.812 [pool-2-thread-5] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:42:56.819 [pool-2-thread-5] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:42:56.819 [pool-2-thread-5] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:42:56.819 [pool-2-thread-5] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:42:56.819 [pool-2-thread-5] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:42:56.820 [pool-2-thread-5] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:42:56.824 [pool-2-thread-5] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:42:56.844 [pool-2-thread-5] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74e27e2d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:42:56.912 [pool-2-thread-5] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:42:56.918 [pool-2-thread-5] INFO  server.ClientSession -  Sent response [{"id":2,"name":"user","password":"123456"},{"id":3,"name":"AnotherUser","password":"123456"},{"id":4,"name":"SomeUser","password":"123456"}] for the request with id: 716087744
+20:43:01.960 [pool-2-thread-5] ERROR server.ClientSession - java.net.SocketException: Connection reset
+20:44:15.305 [pool-2-thread-6] INFO  server.ClientSession -  Received request login with content :{"id":0,"name":"user","password":"123456"} with id: 549239487
+20:44:15.310 [pool-2-thread-6] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:44:15.310 [pool-2-thread-6] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:44:15.317 [pool-2-thread-6] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:44:15.317 [pool-2-thread-6] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:44:15.317 [pool-2-thread-6] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:44:15.317 [pool-2-thread-6] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:44:15.317 [pool-2-thread-6] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:44:15.322 [pool-2-thread-6] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:44:15.344 [pool-2-thread-6] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5887118] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:44:15.410 [pool-2-thread-6] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:44:15.414 [pool-2-thread-6] INFO  server.ClientSession -  Sent response [B@73ffc496 for the request with id: 549239487
+20:44:15.417 [pool-2-thread-6] INFO  server.ClientSession -  Received request getUsers with content : with id: 206363707
+20:44:15.422 [pool-2-thread-6] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:44:15.422 [pool-2-thread-6] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:44:15.428 [pool-2-thread-6] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:44:15.429 [pool-2-thread-6] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:44:15.429 [pool-2-thread-6] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:44:15.429 [pool-2-thread-6] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:44:15.429 [pool-2-thread-6] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:44:15.433 [pool-2-thread-6] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:44:15.460 [pool-2-thread-6] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7f0d1d86] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:44:15.541 [pool-2-thread-6] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:44:15.546 [pool-2-thread-6] INFO  server.ClientSession -  Sent response [{"id":2,"name":"user","password":"123456"},{"id":3,"name":"AnotherUser","password":"123456"},{"id":4,"name":"SomeUser","password":"123456"}] for the request with id: 206363707
+20:44:22.458 [pool-2-thread-6] ERROR server.ClientSession - java.net.SocketException: Connection reset
+20:45:52.899 [pool-2-thread-7] INFO  server.ClientSession -  Received request login with content :{"id":0,"name":"user","password":"123456"} with id: 77880855
+20:45:52.905 [pool-2-thread-7] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:45:52.905 [pool-2-thread-7] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:45:52.916 [pool-2-thread-7] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:45:52.916 [pool-2-thread-7] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:45:52.917 [pool-2-thread-7] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:45:52.918 [pool-2-thread-7] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:45:52.918 [pool-2-thread-7] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:45:52.923 [pool-2-thread-7] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:45:52.946 [pool-2-thread-7] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6df026a6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:45:53.018 [pool-2-thread-7] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:45:53.021 [pool-2-thread-7] INFO  server.ClientSession -  Sent response [B@37ad9dc for the request with id: 77880855
+20:45:53.024 [pool-2-thread-7] INFO  server.ClientSession -  Received request getUsers with content : with id: 206150181
+20:45:53.028 [pool-2-thread-7] WARN  org.hibernate.jpa.boot.spi.ProviderChecker - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+20:45:53.029 [pool-2-thread-7] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: Messenger
+	...]
+20:45:53.036 [pool-2-thread-7] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+20:45:53.036 [pool-2-thread-7] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/messengerdb]
+20:45:53.036 [pool-2-thread-7] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=user}
+20:45:53.036 [pool-2-thread-7] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+20:45:53.036 [pool-2-thread-7] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+20:45:53.040 [pool-2-thread-7] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+20:45:53.061 [pool-2-thread-7] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@464c4438] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+20:45:53.138 [pool-2-thread-7] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+20:45:53.142 [pool-2-thread-7] INFO  server.ClientSession -  Sent response [{"id":2,"name":"user","password":"123456"},{"id":3,"name":"AnotherUser","password":"123456"},{"id":4,"name":"SomeUser","password":"123456"}] for the request with id: 206150181
+20:45:57.869 [pool-2-thread-7] ERROR server.ClientSession - java.net.SocketException: Connection reset
